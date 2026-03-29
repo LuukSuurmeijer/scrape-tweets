@@ -45,6 +45,6 @@ All options can be set via `.env` or environment variables:
 
 ## Notes
 
-This script relies on X's internal CSS class names and `data-testid` attributes to locate elements, which means it may break if X updates their frontend. It also requires a valid X account to log in with. Scraping without authentication isn't supported.
+This script relies on X's internal CSS class names and `data-testid` attributes to locate elements, which means it may break if X updates their frontend. It also requires a valid X account to log in with. Scraping without authentication isn't supported. This is so it works on locked profiles.
 
 Since the functionality depends on Selenium literally scrolling down on your profile, you may need to fiddle around with the `scroll_amount`.
