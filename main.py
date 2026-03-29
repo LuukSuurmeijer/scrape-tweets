@@ -6,10 +6,7 @@ collecting tweet data until a configurable stop condition is met (or a maximum
 tweet count is reached). Results are saved to a JSON file.
 
 Usage:
-    python scraper.py
-
-    Credentials can be set via environment variables (see .env.example) or
-    entered interactively at runtime.
+    python main.py
 """
 
 import getpass
