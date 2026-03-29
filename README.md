@@ -1,6 +1,6 @@
 # X Profile Scraper
 
-As many do, I wanted to stop using Twitter. My Twitter contained a bit of my personal history. Intersting interactions I've had with people, thoughts I had 7 years ago about things that were relevant in my life at the time. I wanted to save these things. Since the twitter API is no longer publically available, I took matters into my own hands. A small Python script that logs into X (Twitter) and scrolls through a user's profile to collect their tweets. It uses Selenium to drive a Chrome browser and BeautifulSoup to parse the resulting HTML. Collected tweets are saved to a JSON file.
+As many do, I wanted to stop using Twitter. My Twitter contained a bit of my personal history. Interesting interactions I've had with people, thoughts I had 7 years ago about things that were relevant in my life at the time. I wanted to save these things. Since the twitter API is no longer publically available, I took matters into my own hands. A small Python script that logs into X (Twitter) and scrolls through a user's profile to collect their tweets. It uses Selenium to drive a Chrome browser and BeautifulSoup to parse the resulting HTML. Collected tweets are saved to a JSON file.
 
 ## What it collects
 
